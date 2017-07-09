@@ -23,6 +23,7 @@ class Shopware_Plugins_Backend_SwagSimpleExtend_Bootstrap extends Shopware_Compo
 
         if ($request->getActionName() == 'load') {
             $view->extendsTemplate('backend/swag_simple_extend/view/detail/base.js');
+            $view->extendsTemplate('backend/swag_simple_extend/controller/detail.js');
         }
     }
 }
